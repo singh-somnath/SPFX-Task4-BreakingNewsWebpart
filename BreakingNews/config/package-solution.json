@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wvi-client-side-solution",
+    "id": "9f9b1e7c-39de-428c-905e-e735330a678c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+    {
+      "resource": "Microsoft Graph",
+      "scope": "Sites.Read.All"
+    }
+  ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "WVI description"
+      },
+      "longDescription": {
+        "default": "WVI description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "wvi Feature",
+        "description": "The feature that activates elements of the wvi solution.",
+        "id": "1ca39922-adbc-4cc7-8390-e6d635641713",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  
+  "paths": {
+    "zippedPackage": "solution/wvi.sppkg"
+  }
+}

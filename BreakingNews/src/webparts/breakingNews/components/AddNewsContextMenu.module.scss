@@ -1,0 +1,37 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+.calloutAddButton
+{
+  padding: 0px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  
+}
+
+.calloutAddButton > :first-child {
+  margin: 0px;
+}
+
+.calloutAddButton2
+{
+ visibility: hidden;
+}
+
+
+.callout {
+  width: 320px;
+  padding: '20px 24px';
+  background-color:red;
+}
+
+.calloutcallout {
+  width: 320px;
+  padding: '20px 24px';
+  background-color:red;
+}
+
+.addMenuTitle {
+  font-weight: 600;
+}
+
